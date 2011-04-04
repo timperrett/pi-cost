@@ -1,0 +1,7 @@
+This example demonstrates the simplicity in using Akka to scale up a basic distributable task: estimating the value of Pi. It was created with Scala 2.8.1, Akka 1.0, and SBT 0.7.4. To try it out, run the following commands:
+
+> tar -xzf pi-cost.tgz
+> cd pi-cost
+> sbt update run
+
+To change the number of workers, add or remove Worker actors from the workers list in the run method.
